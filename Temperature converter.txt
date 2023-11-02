@@ -1,0 +1,16 @@
+import java.util.Scanner
+
+fun main() {
+    // Use Scanner for user input
+    val reader = Scanner(System.in)
+
+    // Ask the user to input the temperature in Celsius
+    print("Enter temperature in Celsius: ")
+    val celsius = reader.nextDouble()
+
+    // Convert Celsius to Fahrenheit using the formula
+    val fahrenheit = (celsius * 9/5) + 32
+
+    // Display the converted temperature
+    println("$celsius°C is equivalent to $fahrenheit°F.")
+}
